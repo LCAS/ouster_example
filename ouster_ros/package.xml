@@ -3,7 +3,7 @@
   <name>ouster_ros</name>
   <version>0.1.0</version>
   <description>OS1 example ROS client</description>
-  <maintainer email="oss@ouster.io">ouster developers</maintainer>
+  <maintainer email="scosar@lincoln.ac.uk">Serhan Cosar</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
 

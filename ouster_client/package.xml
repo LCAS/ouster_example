@@ -3,7 +3,7 @@
   <name>ouster_client</name>
   <version>0.1.0</version>
   <description>The os1_client package</description>
-  <maintainer email="oss@ouster.io">ouster developers</maintainer>
+  <maintainer email="scosar@lincoln.ac.uk">Serhan Cosar</maintainer>
   <license>BSD</license>
   <build_depend>jsoncpp</build_depend>
   <buildtool_depend>catkin</buildtool_depend>
