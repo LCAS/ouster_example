@@ -34,6 +34,6 @@ target_link_libraries(ouster_client_example ouster_client)
 
 
 
-install(DIRECTORY include/${PROJECT_NAME}/
+install(DIRECTORY include/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
