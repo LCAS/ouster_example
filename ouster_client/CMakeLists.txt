@@ -23,10 +23,11 @@ else()
   message(STATUS "Catkin env not set, compiling ${PROJECT_NAME} without ROS")
 endif()
 
+include_directories(include)
+include_directories(${jsoncpp_INCLUDE_DIRS})
+
 add_library(ouster_client STATIC src/os1.cpp src/os1_util.cpp)
 target_link_libraries(ouster_client jsoncpp)
-target_include_directories(ouster_client PUBLIC include)
-target_include_directories(ouster_client SYSTEM PRIVATE ${jsoncpp_INCLUDE_DIRS})
 
 add_executable(ouster_client_example src/main.cpp)
 target_link_libraries(ouster_client_example ouster_client)
