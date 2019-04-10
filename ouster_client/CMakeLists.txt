@@ -33,7 +33,7 @@ add_executable(ouster_client_example src/main.cpp)
 target_link_libraries(ouster_client_example ouster_client)
 
 
-install(TARGET ouster_client
+install(TARGETS ouster_client
   DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 )
 
