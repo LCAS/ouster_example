@@ -47,8 +47,8 @@ target_link_libraries(os1_node ouster_ros ${catkin_LIBRARIES})
 add_executable(os1_cloud_node src/os1_cloud_node.cpp)
 target_link_libraries(os1_cloud_node ouster_ros ${catkin_LIBRARIES})
 
-add_executable(viz_node src/viz_node.cpp)
-target_link_libraries(viz_node ${catkin_LIBRARIES})
+#add_executable(viz_node src/viz_node.cpp)
+#target_link_libraries(viz_node ${catkin_LIBRARIES})
 
 add_executable(img_node src/img_node.cpp)
 target_link_libraries(img_node ouster_ros ${catkin_LIBRARIES})
