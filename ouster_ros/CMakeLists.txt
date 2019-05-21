@@ -17,6 +17,7 @@ find_package(catkin REQUIRED COMPONENTS
   ouster_client
   tf2
   tf2_ros
+  tf2_geometry_msgs
 )
 
 add_message_files(FILES PacketMsg.msg)
@@ -34,7 +35,7 @@ catkin_package(
   CATKIN_DEPENDS
     roscpp message_runtime pcl_ros
     std_msgs sensor_msgs geometry_msgs
-    ouster_client tf2 tf2_ros
+    ouster_client tf2 tf2_ros tf2_geometry_msgs
 )
 
 add_library(ouster_ros STATIC src/os1_ros.cpp)
