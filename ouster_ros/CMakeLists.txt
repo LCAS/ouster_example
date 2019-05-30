@@ -27,6 +27,7 @@ generate_messages(DEPENDENCIES std_msgs sensor_msgs geometry_msgs)
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
+  ${CMAKE_INSTALL_PREFIX}/include/ouster_client/include
 )
 
 catkin_package(
