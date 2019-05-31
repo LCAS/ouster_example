@@ -2,8 +2,8 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2019-05-31)
+------------------
 * Removing ouster_viz (`#2 <https://github.com/LCAS/ouster_example/issues/2>`_)
   * Removing ouster_viz
   * Remove dependencies on ouster_viz
