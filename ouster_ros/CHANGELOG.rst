@@ -2,8 +2,8 @@
 Changelog for package ouster_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.5 (2019-06-03)
+------------------
 * Merge pull request `#4 <https://github.com/LCAS/ouster_example/issues/4>`_ from LCAS/scosar-dev
   Fix missing launch file
 * Fix missing launch file
