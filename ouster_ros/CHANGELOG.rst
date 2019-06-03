@@ -2,6 +2,9 @@
 Changelog for package ouster_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.1.2 (2019-06-03)
 ------------------
 * Fix header dependencies
