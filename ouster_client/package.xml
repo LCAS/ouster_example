@@ -8,8 +8,10 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>libjsoncpp-dev</build_depend>
   <build_depend>libjsoncpp</build_depend>
+  <build_depend>roscpp</build_depend>
 
   <exec_depend>libjsoncpp-dev</exec_depend>
   <exec_depend>libjsoncpp</exec_depend>
+  <exec_depend>roscpp</exec_depend>
   <export></export>
 </package>
