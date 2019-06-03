@@ -2,8 +2,8 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.3 (2019-06-03)
+------------------
 * removed devel check
 * Contributors: Marc Hanheide
 
