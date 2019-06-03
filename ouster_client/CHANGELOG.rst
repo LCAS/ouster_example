@@ -2,8 +2,8 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.4 (2019-06-03)
+------------------
 * Uncomment a line in CMakeLists
 * Contributors: scosar
 
