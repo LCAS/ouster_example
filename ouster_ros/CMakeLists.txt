@@ -58,3 +58,11 @@ target_link_libraries(img_node ouster_ros ${catkin_LIBRARIES})
 install(FILES os1.launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+
+install(TARGETS os1_node
+  DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+)
+
+install(TARGETS os1_cloud_node
+  DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+)
