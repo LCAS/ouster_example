@@ -2,8 +2,8 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.2 (2019-06-03)
+------------------
 * Merge pull request `#3 <https://github.com/LCAS/ouster_example/issues/3>`_ from LCAS/scosar-dev
   Included roscpp in package.xml
 * Included roscpp to package.xml of ouster_client

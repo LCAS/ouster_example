@@ -2,8 +2,8 @@
 Changelog for package ouster_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.2 (2019-06-03)
+------------------
 * Fix header dependencies
 * Added tf2_geometry_msgs in CMakelist and package.xml
 * Fix tf2 error in build
